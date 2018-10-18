@@ -1,3 +1,7 @@
+//Get answer
+var randomNumber = Math.floor(Math.random() * 8);
+var eightBall = '';
+
 function questionAndAnswer() {
 
 //Get question:
@@ -10,9 +14,7 @@ var getQuestion = document.querySelector('.userQuestion');
 
 getQuestion.innerHTML = "You asked: " + question;
 
-//Get answer
-var randomNumber = Math.floor(Math.random() * 8);
-var eightBall = '';
+
 
 var getQuestion = document.querySelector('.userQuestion');
 getQuestion.innerHTML = 'You asked: ' + question;
