@@ -2,15 +2,20 @@
 
 var question = document.getElementById('getUserQuestion').value
 
-var displayQuestion1 = document.querySelector('.userQuestion').innerHTML;
+var getQuestion = document.getElementsByClassName('userQuestion');
+
+var displayQuestion = getQuestion.innerHTML;
 
 console.log(question);
 
 
-function displayQuestion() {
-	displayQuestion1.innerHTML = "You asked: " + question;
+function theQuestion() {
+	displayQuestion.innerHTML = "You asked: " + question;
 	console.log(question);
 }
+
+
+
 
 /*
 //Get answer
