@@ -1,5 +1,3 @@
-
-
 function questionAndAnswer() {
 
 //Get answer
@@ -29,7 +27,11 @@ if(question === null) {
 } else if(question === " ") {
 	eightBall = 'Did you MEAN to not ask anything, or...?'
 } else if(question === "What is the meaning of life?") {
-	eightBall = '42'
+	eightBall = 'I believe Douglas Adams gave the best answer - 42. He also gave some excellent advice about towels.'
+} else if(question === "What's the meaning of life?") {
+	eightBall = 'I believe Douglas Adams gave the best answer - 42. He also gave some excellent advice about towels.'
+} else if(question === "Do you know where your towel is?") {
+	eightBall = 'Of course. They are, of course, the most massively useful thing an interstellar hitchhiker can have. I am a very hoopy frood.'
 } else if(question === "What is a llama?") {
 	eightBall = 'I believe <a href="http://www.llamasinpajamas.net/" target="_blank">this</a> will give you everything you need to know';
 } else if(question === "Who is Sarah Bates?") {
