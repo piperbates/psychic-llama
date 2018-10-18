@@ -1,9 +1,12 @@
-//Get answer
-var randomNumber = Math.floor(Math.random() * 8);
-var eightBall = '';
+
 
 function questionAndAnswer() {
 
+//Get answer
+var randomNumber = Math.floor(Math.random() * 8);
+var eightBall = '';	
+	
+	
 //Get question:
 
 var question = document.getElementById('getUserQuestion').value;
