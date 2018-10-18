@@ -1,6 +1,6 @@
 //Get question:
 
-var question = document.getElementById('getUserQuestion').value
+var question = document.getElementById('getUserQuestion').value;
 
 console.log(question);
 
@@ -8,21 +8,21 @@ console.log(question);
 var randomNumber = Math.floor(Math.random() * 8);
 var eightBall = '';
 
-var getQuestion = document.querySelector('.userQuestion')
+var getQuestion = document.querySelector('.userQuestion');
 getQuestion.innerHTML = 'You asked: ' + question;
 
 if(question === null) {
 	eightBall = 'You pressed cancel? That\'s a bit rude.'
 } else if(question === "") {
-	eightBall = 'You didn\'t ask a question.';
+	eightBall = 'You didn\'t ask a question.'
 } else if(question === " ") {
-	eightBall = 'Did you MEAN to not ask anything, or...?';
+	eightBall = 'Did you MEAN to not ask anything, or...?'
 } else if(question === "What is the meaning of life?") {
-	eightBall = '42';
+	eightBall = '42'
 } else if(question === "What is a llama?") {
 	eightBall = 'I believe <a href="http://www.llamasinpajamas.net/" target="_blank">this</a> will give you everything you need to know';
 } else if(question === "Who is Sarah Bates?") {
-	eightBall = '<img src="images/mug.jpg" alt="mugshot" class="mugshot" /> If you <strong>must</strong> know, they\'re a creative web developer type who likes to test their skills and tinker with new projects. If you ask me (which, I note, you are), they have a very silly sense of humour - which you have probably surmised by visiting this particular area of the internet. If you really want to know more I suppose you could visit <a href="http://www.lazy-bunny.com" target="_blank">their coding portfolio</a>. However, you might be more interested in their <a href="http://www.sarahandthestrange.com" target="_blank">illustration stuff</a>, if you like that sort of thing. ';
+	eightBall = '<img src="images/mug.jpg" alt="mugshot" class="mugshot" /> If you <strong>must</strong> know, they\'re a creative web developer type who likes to test their skills and tinker with new projects. If you ask me (which, I note, you are), they have a very silly sense of humour - which you have probably surmised by visiting this particular area of the internet. If you really want to know more I suppose you could visit <a href="http://www.lazy-bunny.com" target="_blank">their coding portfolio</a>. However, you might be more interested in their <a href="http://www.sarahandthestrange.com" target="_blank">illustration stuff</a>, if you like that sort of thing. '
 } else if(question === "Should I hire Sarah Bates?") {
 	eightBall = 'That depends - do you like awesome people? If so, you should totally hire them. <a href="http://www.lazy-bunny.com">Here is their portfolio</a> if you want to see more of her work.'
 } else if(question === "What is your name?") {
@@ -41,19 +41,19 @@ if(question === null) {
 if(randomNumber === 0) {
   eightBall = 'Yes, probably. I\'m not 100% sure though.'  
 } else if (randomNumber === 1) {
-  eightBall = 'Definitely. Sorry about that.';
+  eightBall = 'Definitely. Sorry about that.'
 } else if (randomNumber === 2) {
-  eightBall = '... I think you should speak to your doctor about that.';
+  eightBall = '... I think you should speak to your doctor about that.'
 } else if (randomNumber === 3) {
-  eightBall = 'I\'m gonna be totally honest with you - I have no idea.';
+  eightBall = 'I\'m gonna be totally honest with you - I have no idea.'
 } else if (randomNumber === 4) {
-  eightBall = 'Oh! I know this one! Yes.';
+  eightBall = 'Oh! I know this one! Yes.'
 } else if (randomNumber === 5) {
-  eightBall = 'I wouldn\'t put money on it, if I were you.';
+  eightBall = 'I wouldn\'t put money on it, if I were you.'
 } else if (randomNumber === 6) {
-  eightBall = 'If I had to choose, I would say... yes.';
+  eightBall = 'If I had to choose, I would say... yes.'
 } else if (randomNumber === 7) {
-  eightBall = 'It\'s unlikely, if I\'m honest.';
+  eightBall = 'It\'s unlikely, if I\'m honest.'
 };
 }; //if(question)
 
