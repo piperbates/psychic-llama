@@ -17,7 +17,6 @@ function theQuestion() {
 
 
 
-/*
 //Get answer
 var randomNumber = Math.floor(Math.random() * 8);
 var eightBall = '';
@@ -78,4 +77,3 @@ console.log('The eight ball answered: ' + eightBall);
 magicAnswer = document.querySelector('.answer')
 magicAnswer.innerHTML = eightBall;
 
-*/
