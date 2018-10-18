@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-	<link href="style.css" type="text/css" rel="stylesheet">
+	<link href="phillys-style.css" type="text/css" rel="stylesheet">
 	<title>Phillys the Psychic Llama</title>
  </head>
  <body>
@@ -11,14 +11,21 @@
 
 <p>Phillys the Psychic Llama will answer any question you have. </p>
 
-<div id="phillys"><img src="images/phillys.png" alt="img" /></div>
+<div id="phillys"></div>
+
+<div id="gettingQuestion">
+<form>
+<input type="text" id="getUserQuestion" />
+<input type="submit" value="Ask me anything" onClick="displayQuestion()" />
+</form>.
+</div>
 
 <div id="actual">
 <p class="userQuestion">&nbsp;</p>
 
 <p class="answer">&nbsp;</p>
 
-<button type="button" onClick="location.reload()" class="reloadButton">Ask another question</button>
+<button type="button" onClick="location.reload()" class="reload">Ask another question</button>
 
 </div>
 

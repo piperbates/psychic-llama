@@ -1,13 +1,23 @@
-//Pre determined questions
-
-var hitchHikers = 'What is the meaning of life?'
-var lowerHitchHikers = hitchHikers.toLowerCase;
-
 //Get question:
-var question = prompt('Ask me anything');
+
+var question = document.getElementById('getUserQuestion').value
+
+var getQuestion = document.getElementsByClassName('userQuestion');
+
+var displayQuestion = getQuestion.innerHTML;
 
 console.log(question);
 
+
+function theQuestion() {
+	displayQuestion.innerHTML = "You asked: " + question;
+	console.log(question);
+}
+
+
+
+
+/*
 //Get answer
 var randomNumber = Math.floor(Math.random() * 8);
 var eightBall = '';
@@ -68,3 +78,4 @@ console.log('The eight ball answered: ' + eightBall);
 magicAnswer = document.querySelector('.answer')
 magicAnswer.innerHTML = eightBall;
 
+*/
