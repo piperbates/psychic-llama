@@ -1,3 +1,5 @@
+function questionAndAnswer() {
+
 //Get question:
 
 var question = document.getElementById('getUserQuestion').value;
@@ -67,5 +69,5 @@ console.log('The eight ball answered: ' + eightBall);
 
 magicAnswer = document.querySelector('.answer')
 magicAnswer.innerHTML = eightBall;
-
+}
 
