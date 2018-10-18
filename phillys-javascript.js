@@ -4,6 +4,10 @@ var question = document.getElementById('getUserQuestion').value;
 
 console.log(question);
 
+var getQuestion = document.querySelector('.userQuestion');
+
+getQuestion.innerHTML = "You asked: " + question;
+
 //Get answer
 var randomNumber = Math.floor(Math.random() * 8);
 var eightBall = '';
