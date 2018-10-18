@@ -2,13 +2,7 @@
 
 var question = document.getElementById('getUserQuestion').value
 
-var getQuestion = document.getElementsByClassName('userQuestion');
-
-var displayQuestion = getQuestion.innerHTML;
-
 console.log(question);
-
-
 
 //Get answer
 var randomNumber = Math.floor(Math.random() * 8);
@@ -67,13 +61,7 @@ console.log('The user asked: ' + question);
 
 console.log('The eight ball answered: ' + eightBall);
 
-function questionAndAnswer() {
-	displayQuestion.innerHTML = "You asked: " + question;
-	console.log(question);
-	magicAnswer = document.querySelector('.answer')
-	magicAnswer.innerHTML = eightBall;
-	console.log(eightBall);
-}
-
+magicAnswer = document.querySelector('.answer')
+magicAnswer.innerHTML = eightBall;
 
 
