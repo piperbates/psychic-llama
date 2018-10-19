@@ -32,4 +32,5 @@ h1 {
 .mugshot {
 	width: 100px;
 	float: left;
+	padding: 5px;
 }
