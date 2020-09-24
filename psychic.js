@@ -39,7 +39,7 @@ if(question === null) {
 if(randomNumber === 0) {
   eightBall = 'Yes. Probably. Maybe? Im going with yes.'  
 } else if (randomNumber === 1) {
-  eightBall = 'Definitely true, and you should probably let your mother know.'
+  eightBall = 'Definitely yes, and you should probably let your mother know.'
 } else if (randomNumber === 2) {
   eightBall = '... I think you should speak to your doctor about that.'
 } else if (randomNumber === 3) {
